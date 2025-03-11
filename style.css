@@ -12,3 +12,9 @@ body {
   cursor: pointer;
   user-select: none;
 }
+
+/* Hiệu ứng mờ dần khi click */
+.fade-out {
+  transition: opacity 0.3s ease-out;
+  opacity: 0;
+}
